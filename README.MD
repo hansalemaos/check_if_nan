@@ -2,7 +2,7 @@
 
 
 ```python
-$pip install check_if_nan
+$pip install check-if-nan
 from check_if_nan import is_nan,sort_nan_non_nan
 import numpy as np
 import pandas as pd
