@@ -1,6 +1,10 @@
 from disable_warnings import *
 from typing import Any
-from collections import defaultdict, Iterable
+from collections import defaultdict
+try:
+    from collections import Iterable
+except Exception:
+    from collections.abc import Iterable
 from functools import reduce
 import numpy as np
 import pandas as pd
